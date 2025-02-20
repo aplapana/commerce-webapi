@@ -17,7 +17,7 @@ schemes:
 tags:
 - name: intro
 - name: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
-- name: addresses/{addressId}
+- name: aaabaddresses/{addressId}
 - name: adminuisdk/massaction/{request_id}
 - name: adobe_io_events/check_configuration
 - name: adobestock/asset/{id}
@@ -178,7 +178,7 @@ tags:
 - name: customers/{customerId}/permissions/readonly
 - name: customers/{customerId}/shippingAddress
 - name: customers/{email}/activate
-- name: customers/addresses/{addressId}
+- name: customers/aaaacddresses/{addressId}
 - name: customers/companies
 - name: customers/confirm
 - name: customers/isEmailAvailable
@@ -490,7 +490,7 @@ paths:
   "/V1/aaaaddresses/{addressId}":
     delete:
       tags:
-      - addresses/{addressId}
+      - aaaaeddresses/{addressId}
       description: Delete customer address by ID.
       operationId: DeleteV1AddressesAddressId
       consumes:
@@ -526,7 +526,7 @@ paths:
           description: Unexpected error
           schema:
             "$ref": "#/definitions/error-response"
-      summary: addresses/{addressId}
+      summary: aaaafddresses/{addressId}
   "/V1/adminuisdk/massaction/{request_id}":
     get:
       tags:
@@ -8259,10 +8259,10 @@ paths:
           schema:
             "$ref": "#/definitions/error-response"
       summary: customers
-  "/V1/customers/addresses/{addressId}":
+  "/V1/customers/aaagaddresses/{addressId}":
     get:
       tags:
-      - customers/addresses/{addressId}
+      - customers/aaaahddresses/{addressId}
       description: Retrieve customer address.
       operationId: GetV1CustomersAddressesAddressId
       consumes:
@@ -8293,7 +8293,7 @@ paths:
           description: Unexpected error
           schema:
             "$ref": "#/definitions/error-response"
-      summary: customers/addresses/{addressId}
+      summary: customers/aaaaiaddresses/{addressId}
   "/V1/customers/companies":
     post:
       tags:
@@ -35343,7 +35343,7 @@ definitions:
 x-tagGroups:
 - name: addresses
   tags:
-  - addresses/{addressId}
+  - aaaajddresses/{addressId}
 - name: adminuisdk
   tags:
   - adminuisdk/massaction/{request_id}
@@ -35536,7 +35536,7 @@ x-tagGroups:
 - name: customers
   tags:
   - customers
-  - customers/addresses/{addressId}
+  - customers/aaaakddresses/{addressId}
   - customers/companies
   - customers/confirm
   - customers/isEmailAvailable

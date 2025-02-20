@@ -15,6 +15,8 @@ basePath: "/rest/default"
 schemes:
 - http
 tags:
+- name: intro
+- name: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
 - name: addresses/{addressId}
 - name: adminuisdk/massaction/{request_id}
 - name: adobe_io_events/check_configuration
@@ -490,6 +492,7 @@ paths:
       tags:
       - addresses/{addressId}
       description: Delete customer address by ID.
+        $ref: /path/to/file.md
       operationId: DeleteV1AddressesAddressId
       consumes:
       - application/json

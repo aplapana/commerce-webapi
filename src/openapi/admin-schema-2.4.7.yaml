@@ -14,6 +14,13 @@ host: example.com
 basePath: "/rest/default"
 schemes:
 - http
+pages:
+  - label: Training exercises
+    page: ../index.md
+  - label: Training exercises3
+    page: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
+  - label: Training exercises2
+    $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
 tags:
 - name: intro
 - name: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
@@ -35536,7 +35543,7 @@ x-tagGroups:
 - name: customers
   tags:
   - customers
-  - customers/aaaakddresses/{addressId}
+  - customers/addresses/{addressId}
   - customers/companies
   - customers/confirm
   - customers/isEmailAvailable

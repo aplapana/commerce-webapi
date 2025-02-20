@@ -492,7 +492,6 @@ paths:
       tags:
       - addresses/{addressId}
       description: Delete customer address by ID.
-        $ref: /path/to/file.md
       operationId: DeleteV1AddressesAddressId
       consumes:
       - application/json

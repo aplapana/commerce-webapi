@@ -18,16 +18,15 @@ tags:
 - name: intro
   description: 
     Introductory test
-  $ref: ../_includes/redocly-intro.md
+  $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
 - name: intro2
   description:
-    $ref: ../_includes/redocly-intro.md
+    $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
 - name: intro3
   description: Introductory test
   externalDocs:
     url: https://www.adobe.com
     description: Adobe's website
-- name: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
 - name: aaabaddresses/{addressId}
 - name: adminuisdk/massaction/{request_id}
 - name: adobe_io_events/check_configuration

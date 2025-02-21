@@ -15,10 +15,6 @@ basePath: "/rest/default"
 schemes:
 - http
 tags:
-- name: intro
-  description: 
-    Introductory test
-  $ref: ../_includes/redocly-intro.md
 - name: intro2
   description:
     $ref: ../_includes/redocly-intro.md

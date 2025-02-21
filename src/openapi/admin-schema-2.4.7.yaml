@@ -504,6 +504,9 @@ paths:
       - addresses/{addressId}
       description:
         $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/refs/heads/jh_redoc-test/src/_includes/redocly-intro2.md
+      externalDocs:
+        url: https://redocly.com/docs/
+        description: Read the Redocly docs
       operationId: DeleteV1AddressesAddressId
       consumes:
       - application/json
@@ -544,6 +547,9 @@ paths:
       tags:
       - adminuisdk/massaction/{request_id}
       description: Load mass actions failed request by request id
+      externalDocs:
+        url: https://redocly.com/docs/
+        description: Read the Redocly docs
       operationId: GetV1AdminuisdkMassactionRequest_id
       consumes:
       - application/json

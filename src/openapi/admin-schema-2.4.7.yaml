@@ -489,8 +489,8 @@ paths:
     delete:
       tags:
       - addresses/{addressId}
-      description: Delete customer address by ID.
-        $ref: ../_includes/redocly-intro.md
+      description:
+        $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
       operationId: DeleteV1AddressesAddressId
       consumes:
       - application/json

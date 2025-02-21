@@ -14,13 +14,6 @@ host: example.com
 basePath: "/rest/default"
 schemes:
 - http
-info:
-  - description: Training exercises
-    page: ../index.md
-  - label: Training exercises3
-    page: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
-  - label: Training exercises2
-    $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
 tags:
 - name: intro
   description: 

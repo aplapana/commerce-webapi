@@ -9,20 +9,12 @@ info:
   version: 2.4.7
   title: Commerce Admin REST endpoints - All inclusive
   description: 
-    $ref: ../_includes/redocly-intro.md
+    $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
 host: example.com
 basePath: "/rest/default"
 schemes:
 - http
 tags:
-- name: intro2
-  description:
-    $ref: ../_includes/redocly-intro.md
-- name: intro3
-  description: Introductory test
-  externalDocs:
-    url: https://www.adobe.com
-    description: Adobe's website
 - name: addresses/{addressId}
 - name: adminuisdk/massaction/{request_id}
 - name: adobe_io_events/check_configuration
@@ -184,7 +176,7 @@ tags:
 - name: customers/{customerId}/permissions/readonly
 - name: customers/{customerId}/shippingAddress
 - name: customers/{email}/activate
-- name: customers/aaaacddresses/{addressId}
+- name: customers/addresses/{addressId}
 - name: customers/companies
 - name: customers/confirm
 - name: customers/isEmailAvailable
@@ -493,40 +485,11 @@ tags:
 - name: transactions
 - name: transactions/{id}
 paths:
-  "/addresses/{addressId}":
-    get:
-      tags:
-      - intro2
-      description:
-        $ref: ../_includes/redocly-intro.md
-      responses:
-        '200':
-          description: 200 Success.
-          schema:
-            type: boolean
-            description: true on success
-        '400':
-          description: 400 Bad Request
-          schema:
-            "$ref": "#/definitions/error-response"
-        '401':
-          description: 401 Unauthorized
-          schema:
-            "$ref": "#/definitions/error-response"
-        '500':
-          description: Internal Server error
-          schema:
-            "$ref": "#/definitions/error-response"
-        default:
-          description: Unexpected error
-          schema:
-            "$ref": "#/definitions/error-response"
-      summary: addresses/{addressId}
   "/V1/addresses/{addressId}":
     delete:
       tags:
       - addresses/{addressId}
-      description:
+      description: Delete customer address by ID.
         $ref: ../_includes/redocly-intro.md
       operationId: DeleteV1AddressesAddressId
       consumes:
@@ -562,7 +525,7 @@ paths:
           description: Unexpected error
           schema:
             "$ref": "#/definitions/error-response"
-      summary: aaaafddresses/{addressId}
+      summary: addresses/{addressId}
   "/V1/adminuisdk/massaction/{request_id}":
     get:
       tags:
@@ -8295,10 +8258,10 @@ paths:
           schema:
             "$ref": "#/definitions/error-response"
       summary: customers
-  "/V1/customers/aaagaddresses/{addressId}":
+  "/V1/customers/addresses/{addressId}":
     get:
       tags:
-      - customers/aaaahddresses/{addressId}
+      - customers/addresses/{addressId}
       description: Retrieve customer address.
       operationId: GetV1CustomersAddressesAddressId
       consumes:
@@ -8329,7 +8292,7 @@ paths:
           description: Unexpected error
           schema:
             "$ref": "#/definitions/error-response"
-      summary: customers/aaaaiaddresses/{addressId}
+      summary: customers/addresses/{addressId}
   "/V1/customers/companies":
     post:
       tags:
@@ -35379,7 +35342,7 @@ definitions:
 x-tagGroups:
 - name: addresses
   tags:
-  - aaaajddresses/{addressId}
+  - addresses/{addressId}
 - name: adminuisdk
   tags:
   - adminuisdk/massaction/{request_id}

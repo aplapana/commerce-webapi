@@ -23,7 +23,7 @@ tags:
   externalDocs:
     url: https://www.adobe.com
     description: Adobe's website
-- name: aaabaddresses/{addressId}
+- name: addresses/{addressId}
 - name: adminuisdk/massaction/{request_id}
 - name: adobe_io_events/check_configuration
 - name: adobestock/asset/{id}

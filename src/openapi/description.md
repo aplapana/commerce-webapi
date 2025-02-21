@@ -51,16 +51,6 @@ To create or manage API keys, select one of the following ...
 
 # Status codes and responses
 
----
-title: Status Codes and Responses
-description: A list of status codes and REST responses that can be returned from the APIs.
-keywords:
-  - GraphQL
-  - REST
----
-
-# Status codes and REST responses
-
 Each web API call returns a HTTP status code and a response payload. When an error occurs, the response body also returns an error message.
 
 ## HTTP status codes

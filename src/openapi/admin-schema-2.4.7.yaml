@@ -15,6 +15,19 @@ basePath: "/rest/default"
 schemes:
 - http
 tags:
+- name: Alpha
+  description: This is a **bold** description.
+- name: Beta
+  description: |
+    This description is using the YAML block to make it easier to write Markdown.
+
+    ## This is an H2 heading
+
+    This is another paragraph with a **bold** word.
+- name: Gamma
+  externalDocs:
+    url: https://redocly.com/docs/
+    description: Read the Redocly docs
 - name: addresses/{addressId}
 - name: adminuisdk/massaction/{request_id}
 - name: adobe_io_events/check_configuration

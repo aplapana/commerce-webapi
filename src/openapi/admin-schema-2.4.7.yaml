@@ -493,7 +493,7 @@ tags:
 - name: transactions
 - name: transactions/{id}
 paths:
-  "intro":
+  "/addresses/{addressId}":
     get:
       tags:
       - intro2

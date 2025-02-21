@@ -493,6 +493,12 @@ tags:
 - name: transactions
 - name: transactions/{id}
 paths:
+  "intro":
+    get:
+      tags:
+      - intro2
+      description:
+        $ref: ../_includes/redocly-intro.md
   "/V1/aaaaddresses/{addressId}":
     delete:
       tags:

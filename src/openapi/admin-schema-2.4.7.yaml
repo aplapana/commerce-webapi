@@ -18,10 +18,10 @@ tags:
 - name: intro
   description: 
     Introductory test
-  $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
+  $ref: ../_includes/redocly-intro.md
 - name: intro2
   description:
-    $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro.md
+    $ref: ../_includes/redocly-intro.md
 - name: intro3
   description: Introductory test
   externalDocs:

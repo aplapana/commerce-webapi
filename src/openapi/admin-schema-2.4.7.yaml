@@ -23,7 +23,7 @@ tags:
 
     ## This is an H2 heading
 
-    This is another paragraph with a **bold** word.
+    This is another paragraph with a **bold** word. Is this an item.
 - name: Gamma
   externalDocs:
     url: https://redocly.com/docs/

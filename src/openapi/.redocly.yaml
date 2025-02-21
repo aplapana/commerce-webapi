@@ -18,7 +18,7 @@ apis:
   Commerce(Guest)@2.4.6:
     root: src/openapi/guest-schema-2.4.6.yaml
 features.openapi:
-  pagination: none
+  pagination: item
   hideHostname: true
   sortPropsAlphabetically: true
   pathInMiddlePanel: true

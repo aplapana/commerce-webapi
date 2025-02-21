@@ -503,7 +503,7 @@ paths:
       tags:
       - addresses/{addressId}
       description:
-        $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/main/src/_includes/redocly-intro2.md
+        $ref: https://raw.githubusercontent.com/AdobeDocs/commerce-webapi/refs/heads/jh_redoc-test/src/_includes/redocly-intro2.md
       operationId: DeleteV1AddressesAddressId
       consumes:
       - application/json
